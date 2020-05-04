@@ -1,2 +1,101 @@
+<!doctype html>
 
-Hello World
+<html lang="en">
+	<head>
+	  <meta charset="utf-8">
+
+	  <title>This is QEF</title>
+	  <meta name="description" content="">
+	  <meta name="author" content="Jace Cooke">
+	<!-- SVG Emoji as Favicon -->
+
+	<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💥</text></svg>">
+
+	  <style>
+
+	  	:root {
+	      font-size: 100%;
+	      overflow-y: auto;
+	      -webkit-text-size-adjust:100%;
+	      -ms-text-size-adjust:100%;
+	      background-color:white;
+	      color:#1a1a1a;
+	      font-family: monospace, sans-serif;
+	      font-size:14px;
+	      line-height:20px;
+	    }
+
+	    a {
+	    	color:#1a1a1a;
+	    	text-decoration:none;
+	    	border-bottom:1px dotted;
+	    }
+
+	    a:hover {
+	    	color:blue;
+	    }
+
+	    input[type=text] {
+	    	width:140px;
+	    }
+
+	    input[type=submit] {
+	    	padding:2px 4px 3px 4px;
+	    	cursor:pointer;
+			}
+
+			#content {
+				margin: 15% auto;
+				max-width: 620px;
+				padding:2em;
+			}
+
+			/* Dark Mode */
+
+    @media (prefers-color-scheme: dark) {
+
+      :root {
+        background-color:#1a1a1a;
+        color:darkgray;
+    }
+
+    	a {
+    		color:#eee;
+    	}
+
+    	strong {
+    		color:#eee;
+    	}
+
+		</style>
+	</head>
+
+	<body>
+		<div id="content">
+			<p><strong>You've reached the temporary landing page of <a href="https://www.instagram.com/qef.co">QEF</a>:</strong> </p>
+			<p>a tiny, <i>experimental</i> design &amp; fabrication studio &mdash; </br>
+				building by hand and robot on the coast of Maine since 2020.
+			</p>
+
+			<p>For semi-regular updates &plus; earnest writing on creativity, craft, and keeping a small business afloat, please sign up for our newsletter below.</p>
+
+			<form
+			  action="https://buttondown.email/api/emails/embed-subscribe/qef"
+			  method="post"
+			  target="popupwindow"
+			  onsubmit="window.open('https://buttondown.email/qef', 'popupwindow')"
+			  class="embeddable-buttondown-form"
+			>
+			  <label for="bd-email">Enter your email here &rarr;</label>
+			  <input type="email" name="email" size="27" id="bd-email">
+			  <input type="hidden" value="1" name="embed"></input>
+			  <input type="submit" value="Subscribe"></input>
+			  <p>
+			  </p>
+			</form>  
+		</div>
+
+
+	</body>
+</html>
+
